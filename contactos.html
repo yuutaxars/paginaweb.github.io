@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+   
+   <title>Contactos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+          <a href="index.html" class="logo">Logo</a>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+            <img src="img/menu.png" class="menu-icono" alt="" />
+          </label>
+  
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      <form class="form" action="https://formspree.io/f/xqkrjydy"
+      method="POST">
+        <div class="form__container">
+            <h2 class="form__title">Contáctame</h2>
+            <input type="text" class="form__input" placeholder="Nombre:" name="name">
+            <input type="email" class="form__input" placeholder="Email:" name="email">
+            <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message"></textarea>
+
+            <input type="submit" value="Enviar" class="form__cta">
+        </div>
+      </form>
+  </header> 
+</body>
+</html>
